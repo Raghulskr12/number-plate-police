@@ -303,18 +303,17 @@ def extract_plate_region(frame, bbox, padding=20):
     
     return frame[y_min:y_max, x_min:x_max]
 
-# Save data to JSON
-def save_data(number_plate, ocr_confidence, detector_confidence, plate_img_path, frame_img_path):
-    current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+# Modified: Save only required data to JSON
+def save_data(number_plate):
+    current_time = datetime.datetime.now()
+    date = current_time.strftime("%Y-%m-%d")
+    time_str = current_time.strftime("%H:%M:%S")
+    
     data_entry = {
         "number_plate": number_plate,
-        "date_time": current_time,
-        "camera_id": CAMERA_ID,
-        "detector_confidence": float(detector_confidence),
-        "ocr_confidence": float(ocr_confidence),
-        "combined_confidence": float((detector_confidence + ocr_confidence) / 2),
-        "plate_image": plate_img_path,
-        "frame_image": frame_img_path
+        "date": date,
+        "time": time_str,
+        "camera_id": CAMERA_ID
     }
 
     json_file = 'number_plate_data.json'
@@ -328,7 +327,7 @@ def save_data(number_plate, ocr_confidence, detector_confidence, plate_img_path,
     with open(json_file, 'w') as file:
         json.dump(data, file, indent=4)
     
-    logger.info(f"Saved: {number_plate} at {current_time}")
+    logger.info(f"Saved: {number_plate} at {date} {time_str}")
 
 def process_frame(frame, debug=False):
     """Process a single frame and detect license plates"""
@@ -373,7 +372,7 @@ def process_frame(frame, debug=False):
                 timestamp_filename = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
                 
                 if not plate_tracker.is_duplicate(plate_text):
-                    # Save the cropped plate image
+                    # Still save the image for debugging
                     plate_img_filename = f"{plate_text}_{timestamp_filename}.jpg"
                     plate_img_path = os.path.join(result_images_dir, plate_img_filename)
                     cv2.imwrite(plate_img_path, plate_img)
@@ -383,8 +382,8 @@ def process_frame(frame, debug=False):
                     frame_img_path = os.path.join(result_images_dir, frame_img_filename)
                     cv2.imwrite(frame_img_path, display_frame)
                     
-                    # Save data to JSON
-                    save_data(plate_text, ocr_confidence, conf, plate_img_filename, frame_img_filename)
+                    # Save only required data to JSON
+                    save_data(plate_text)
                     plate_tracker.add_plate(plate_text)
                     
                     detected_plates.append({
@@ -435,7 +434,7 @@ def main():
                 
                 if detected_plates:
                     for plate in detected_plates:
-                        print(f"Detected Number Plate: {plate['plate_text']} (Confidence: {plate['confidence']:.2f})")
+                        print(f"Detected Number Plate: {plate['plate_text']}")
                 else:
                     print("No number plate detected.")
                 
@@ -461,7 +460,7 @@ def main():
         
         if detected_plates:
             for plate in detected_plates:
-                print(f"Detected Number Plate: {plate['plate_text']} (Confidence: {plate['confidence']:.2f})")
+                print(f"Detected Number Plate: {plate['plate_text']}")
         else:
             print("No number plate detected.")
         
