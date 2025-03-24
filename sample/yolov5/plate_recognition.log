@@ -1,0 +1,48 @@
+2025-03-19 22:02:27,791 - INFO - Initializing License Plate Recognition System
+2025-03-19 22:02:29,617 - INFO - CUDA available. Using GPU acceleration.
+2025-03-19 22:02:29,735 - INFO - Camera initialized at resolution: 640.0x480.0
+2025-03-19 22:03:01,972 - INFO - License Plate Recognition System stopped
+2025-03-19 22:06:44,901 - INFO - Initializing License Plate Recognition System
+2025-03-19 22:06:44,901 - INFO - Applied patch for torch.cuda.amp.autocast deprecation
+2025-03-19 22:06:46,689 - INFO - CUDA available. Using GPU acceleration.
+2025-03-19 22:06:46,801 - INFO - Camera initialized at resolution: 640.0x480.0
+2025-03-19 22:06:47,280 - ERROR - Error in main loop: set_autocast_dtype(): argument 'dtype' (position 2) must be torch.dtype, not bool
+2025-03-19 22:06:47,303 - INFO - License Plate Recognition System stopped
+2025-03-19 22:09:33,639 - INFO - Initializing License Plate Recognition System
+2025-03-19 22:09:35,418 - INFO - CUDA available. Using GPU acceleration.
+2025-03-19 22:09:35,531 - INFO - Camera initialized at resolution: 640.0x480.0
+2025-03-19 22:09:52,283 - INFO - License Plate Recognition System stopped
+2025-03-19 22:10:23,319 - INFO - Initializing License Plate Recognition System
+2025-03-19 22:10:25,440 - ERROR - Failed to load model: [Errno 2] No such file or directory: 'runs/train/exp/weights/best.pt'. Cache may be out of date, try `force_reload=True` or see https://docs.ultralytics.com/yolov5/tutorials/pytorch_hub_model_loading for help.
+2025-03-19 22:10:25,441 - ERROR - Fatal error: [Errno 2] No such file or directory: 'runs/train/exp/weights/best.pt'. Cache may be out of date, try `force_reload=True` or see https://docs.ultralytics.com/yolov5/tutorials/pytorch_hub_model_loading for help.
+2025-03-19 22:12:00,780 - INFO - Initializing License Plate Recognition System
+2025-03-19 22:12:02,938 - ERROR - Failed to load model: [Errno 2] No such file or directory: 'runs/train/exp/weights/best.pt'. Cache may be out of date, try `force_reload=True` or see https://docs.ultralytics.com/yolov5/tutorials/pytorch_hub_model_loading for help.
+2025-03-19 22:12:02,938 - ERROR - Fatal error: [Errno 2] No such file or directory: 'runs/train/exp/weights/best.pt'. Cache may be out of date, try `force_reload=True` or see https://docs.ultralytics.com/yolov5/tutorials/pytorch_hub_model_loading for help.
+2025-03-19 22:13:14,299 - INFO - Initializing License Plate Recognition System
+2025-03-19 22:13:16,024 - INFO - CUDA available. Using GPU acceleration.
+2025-03-19 22:13:16,138 - INFO - Camera initialized at resolution: 640.0x480.0
+2025-03-19 22:13:21,389 - INFO - Saved plate image to plate_images/SHOUE_20250319_221321.jpg
+2025-03-19 22:13:21,390 - INFO - Saved plate data to data/plates.json
+2025-03-19 22:13:21,390 - INFO - Detected: SHOUE at 2025-03-19 22:13:21 (Confidence: 0.85)
+2025-03-19 22:13:21,595 - INFO - Saved plate image to plate_images/ISHED_20250319_221321.jpg
+2025-03-19 22:13:21,595 - INFO - Saved plate data to data/plates.json
+2025-03-19 22:13:21,595 - INFO - Detected: ISHED at 2025-03-19 22:13:21 (Confidence: 0.87)
+2025-03-19 22:13:33,557 - INFO - Saved plate image to plate_images/ISHHOA_20250319_221333.jpg
+2025-03-19 22:13:33,558 - INFO - Saved plate data to data/plates.json
+2025-03-19 22:13:33,558 - INFO - Detected: ISHHOA at 2025-03-19 22:13:33 (Confidence: 0.88)
+2025-03-19 22:13:33,762 - INFO - Saved plate image to plate_images/FHHOTHEO_20250319_221333.jpg
+2025-03-19 22:13:33,762 - INFO - Saved plate data to data/plates.json
+2025-03-19 22:13:33,762 - INFO - Detected: FHHOTHEO at 2025-03-19 22:13:33 (Confidence: 0.89)
+2025-03-19 22:13:33,962 - INFO - Saved plate image to plate_images/IHHOMHEAN_20250319_221333.jpg
+2025-03-19 22:13:33,963 - INFO - Saved plate data to data/plates.json
+2025-03-19 22:13:33,963 - INFO - Detected: IHHOMHEAN at 2025-03-19 22:13:33 (Confidence: 0.89)
+2025-03-19 22:13:34,135 - INFO - Saved plate image to plate_images/TTTTE_20250319_221334.jpg
+2025-03-19 22:13:34,136 - INFO - Saved plate data to data/plates.json
+2025-03-19 22:13:34,136 - INFO - Detected: TTTTE at 2025-03-19 22:13:34 (Confidence: 0.68)
+2025-03-19 22:13:35,639 - INFO - Saved plate image to plate_images/PHNOAA_20250319_221335.jpg
+2025-03-19 22:13:35,640 - INFO - Saved plate data to data/plates.json
+2025-03-19 22:13:35,640 - INFO - Detected: PHNOAA at 2025-03-19 22:13:35 (Confidence: 0.90)
+2025-03-19 22:13:35,916 - INFO - Saved plate image to plate_images/PHHOH_20250319_221335.jpg
+2025-03-19 22:13:35,916 - INFO - Saved plate data to data/plates.json
+2025-03-19 22:13:35,917 - INFO - Detected: PHHOH at 2025-03-19 22:13:35 (Confidence: 0.90)
+2025-03-19 22:13:39,364 - INFO - License Plate Recognition System stopped

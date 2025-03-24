@@ -1,0 +1,58 @@
+[
+    {
+        "number_plate": "SHOUE",
+        "date_time": "2025-03-19 22:13:21",
+        "camera_id": "Gate_Camera_1",
+        "confidence": 0.8536379933357239,
+        "image_path": "plate_images/SHOUE_20250319_221321.jpg"
+    },
+    {
+        "number_plate": "ISHED",
+        "date_time": "2025-03-19 22:13:21",
+        "camera_id": "Gate_Camera_1",
+        "confidence": 0.869160532951355,
+        "image_path": "plate_images/ISHED_20250319_221321.jpg"
+    },
+    {
+        "number_plate": "ISHHOA",
+        "date_time": "2025-03-19 22:13:33",
+        "camera_id": "Gate_Camera_1",
+        "confidence": 0.879388689994812,
+        "image_path": "plate_images/ISHHOA_20250319_221333.jpg"
+    },
+    {
+        "number_plate": "FHHOTHEO",
+        "date_time": "2025-03-19 22:13:33",
+        "camera_id": "Gate_Camera_1",
+        "confidence": 0.886414647102356,
+        "image_path": "plate_images/FHHOTHEO_20250319_221333.jpg"
+    },
+    {
+        "number_plate": "IHHOMHEAN",
+        "date_time": "2025-03-19 22:13:33",
+        "camera_id": "Gate_Camera_1",
+        "confidence": 0.8899674415588379,
+        "image_path": "plate_images/IHHOMHEAN_20250319_221333.jpg"
+    },
+    {
+        "number_plate": "TTTTE",
+        "date_time": "2025-03-19 22:13:34",
+        "camera_id": "Gate_Camera_1",
+        "confidence": 0.6758976578712463,
+        "image_path": "plate_images/TTTTE_20250319_221334.jpg"
+    },
+    {
+        "number_plate": "PHNOAA",
+        "date_time": "2025-03-19 22:13:35",
+        "camera_id": "Gate_Camera_1",
+        "confidence": 0.9004661440849304,
+        "image_path": "plate_images/PHNOAA_20250319_221335.jpg"
+    },
+    {
+        "number_plate": "PHHOH",
+        "date_time": "2025-03-19 22:13:35",
+        "camera_id": "Gate_Camera_1",
+        "confidence": 0.9022895097732544,
+        "image_path": "plate_images/PHHOH_20250319_221335.jpg"
+    }
+]

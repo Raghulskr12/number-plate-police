@@ -1,0 +1,212 @@
+[
+    {
+        "number_plate": "TN82Y8388",
+        "date_time": "2025-03-24 14:14:31",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.8824881315231323,
+        "ocr_confidence": 2.4510564296385593,
+        "combined_confidence": 1.6667723655700684,
+        "plate_image": "TN82Y8388_20250324_141431.jpg",
+        "frame_image": "frame_TN82Y8388_20250324_141431.jpg"
+    },
+    {
+        "number_plate": "HH6439",
+        "date_time": "2025-03-24 14:15:43",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.9033191204071045,
+        "ocr_confidence": 4.142269246123288,
+        "combined_confidence": 2.522794246673584,
+        "plate_image": "HH6439_20250324_141543.jpg",
+        "frame_image": "frame_HH6439_20250324_141543.jpg"
+    },
+    {
+        "number_plate": "PKA1LA1478",
+        "date_time": "2025-03-24 14:22:40",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.9028155207633972,
+        "ocr_confidence": 0.3428000533308406,
+        "combined_confidence": 0.6228078007698059,
+        "plate_image": "PKA1LA1478_20250324_142240.jpg",
+        "frame_image": "frame_PKA1LA1478_20250324_142240.jpg"
+    },
+    {
+        "number_plate": "KA1LA1478",
+        "date_time": "2025-03-24 14:23:01",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.8340389132499695,
+        "ocr_confidence": 0.87689364525943,
+        "combined_confidence": 0.8554662466049194,
+        "plate_image": "KA1LA1478_20250324_142301.jpg",
+        "frame_image": "frame_KA1LA1478_20250324_142301.jpg"
+    },
+    {
+        "number_plate": "TN82Y8388",
+        "date_time": "2025-03-24 14:23:17",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.8993554711341858,
+        "ocr_confidence": 1.255400325140415,
+        "combined_confidence": 1.0773779153823853,
+        "plate_image": "TN82Y8388_20250324_142317.jpg",
+        "frame_image": "frame_TN82Y8388_20250324_142317.jpg"
+    },
+    {
+        "number_plate": "KL07CP7235",
+        "date_time": "2025-03-24 14:23:31",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.7637869715690613,
+        "ocr_confidence": 1.4658892231810166,
+        "combined_confidence": 1.1148381233215332,
+        "plate_image": "KL07CP7235_20250324_142331.jpg",
+        "frame_image": "frame_KL07CP7235_20250324_142331.jpg"
+    },
+    {
+        "number_plate": "CXL54K5719",
+        "date_time": "2025-03-24 14:24:03",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.8960312604904175,
+        "ocr_confidence": 0.658456095008306,
+        "combined_confidence": 0.7772436738014221,
+        "plate_image": "CXL54K5719_20250324_142403.jpg",
+        "frame_image": "frame_CXL54K5719_20250324_142403.jpg"
+    },
+    {
+        "number_plate": "JR73J4R",
+        "date_time": "2025-03-24 14:24:28",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.8671870827674866,
+        "ocr_confidence": 5.5548151624505815,
+        "combined_confidence": 3.21100115776062,
+        "plate_image": "JR73J4R_20250324_142428.jpg",
+        "frame_image": "frame_JR73J4R_20250324_142428.jpg"
+    },
+    {
+        "number_plate": "KLL8L7987",
+        "date_time": "2025-03-24 14:25:18",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.8744488954544067,
+        "ocr_confidence": 3.767635699487208,
+        "combined_confidence": 2.32104229927063,
+        "plate_image": "KLL8L7987_20250324_142518.jpg",
+        "frame_image": "frame_KLL8L7987_20250324_142518.jpg"
+    },
+    {
+        "number_plate": "LBL7987",
+        "date_time": "2025-03-24 14:25:20",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.8248764872550964,
+        "ocr_confidence": 1.7607350755928413,
+        "combined_confidence": 1.292805790901184,
+        "plate_image": "LBL7987_20250324_142520.jpg",
+        "frame_image": "frame_LBL7987_20250324_142520.jpg"
+    },
+    {
+        "number_plate": "KL48L7987",
+        "date_time": "2025-03-24 14:25:24",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.8204975724220276,
+        "ocr_confidence": 1.2175077288520357,
+        "combined_confidence": 1.0190026760101318,
+        "plate_image": "KL48L7987_20250324_142524.jpg",
+        "frame_image": "frame_KL48L7987_20250324_142524.jpg"
+    },
+    {
+        "number_plate": "KL10AZ2075",
+        "date_time": "2025-03-24 14:25:44",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.9057866930961609,
+        "ocr_confidence": 1.8747492406262938,
+        "combined_confidence": 1.3902679681777954,
+        "plate_image": "KL10AZ2075_20250324_142544.jpg",
+        "frame_image": "frame_KL10AZ2075_20250324_142544.jpg"
+    },
+    {
+        "number_plate": "KL5953982",
+        "date_time": "2025-03-24 14:26:02",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.9125534892082214,
+        "ocr_confidence": 2.373349074739481,
+        "combined_confidence": 1.6429513692855835,
+        "plate_image": "KL5953982_20250324_142602.jpg",
+        "frame_image": "frame_KL5953982_20250324_142602.jpg"
+    },
+    {
+        "number_plate": "TNLSBP1111",
+        "date_time": "2025-03-24 14:27:03",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.8769563436508179,
+        "ocr_confidence": 1.3825555473167708,
+        "combined_confidence": 1.129755973815918,
+        "plate_image": "TNLSBP1111_20250324_142703.jpg",
+        "frame_image": "frame_TNLSBP1111_20250324_142703.jpg"
+    },
+    {
+        "number_plate": "TNLSBP1111",
+        "date_time": "2025-03-24 14:27:10",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.8296790719032288,
+        "ocr_confidence": 1.2948524324920383,
+        "combined_confidence": 1.0622657537460327,
+        "plate_image": "TNLSBP1111_20250324_142710.jpg",
+        "frame_image": "frame_TNLSBP1111_20250324_142710.jpg"
+    },
+    {
+        "number_plate": "THZSBP1111",
+        "date_time": "2025-03-24 14:27:13",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.8671491146087646,
+        "ocr_confidence": 1.7249766548348244,
+        "combined_confidence": 1.29606294631958,
+        "plate_image": "THZSBP1111_20250324_142713.jpg",
+        "frame_image": "frame_THZSBP1111_20250324_142713.jpg"
+    },
+    {
+        "number_plate": "TNLSBP1444",
+        "date_time": "2025-03-24 14:27:15",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.8376645445823669,
+        "ocr_confidence": 0.6540354412118761,
+        "combined_confidence": 0.7458499670028687,
+        "plate_image": "TNLSBP1444_20250324_142715.jpg",
+        "frame_image": "frame_TNLSBP1444_20250324_142715.jpg"
+    },
+    {
+        "number_plate": "TNZ5BP1111",
+        "date_time": "2025-03-24 14:27:19",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.745566189289093,
+        "ocr_confidence": 0.5270947270823244,
+        "combined_confidence": 0.6363304853439331,
+        "plate_image": "TNZ5BP1111_20250324_142719.jpg",
+        "frame_image": "frame_TNZ5BP1111_20250324_142719.jpg"
+    },
+    {
+        "number_plate": "TMSBP1111",
+        "date_time": "2025-03-24 14:27:22",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.7471277713775635,
+        "ocr_confidence": 0.4216650136327587,
+        "combined_confidence": 0.5843963623046875,
+        "plate_image": "TMSBP1111_20250324_142722.jpg",
+        "frame_image": "frame_TMSBP1111_20250324_142722.jpg"
+    },
+    {
+        "number_plate": "TN63DB5481",
+        "date_time": "2025-03-24 14:27:35",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.796596109867096,
+        "ocr_confidence": 5.1760353337703,
+        "combined_confidence": 2.9863157272338867,
+        "plate_image": "TN63DB5481_20250324_142735.jpg",
+        "frame_image": "frame_TN63DB5481_20250324_142735.jpg"
+    },
+    {
+        "number_plate": "TN07BL9345",
+        "date_time": "2025-03-24 14:27:58",
+        "camera_id": "CAM01",
+        "detector_confidence": 0.7901555299758911,
+        "ocr_confidence": 4.8952794024455955,
+        "combined_confidence": 2.842717409133911,
+        "plate_image": "TN07BL9345_20250324_142758.jpg",
+        "frame_image": "frame_TN07BL9345_20250324_142758.jpg"
+    }
+]
